@@ -689,14 +689,18 @@
 
 .other-amount {
     /* border-bottom: 1px solid #dfdcdc; */
+
+    border-bottom: 1px solid rgb(207, 198, 228);
+
+}
+
+.o-a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
     margin-bottom: 32px;
-
-
 }
 
 .o-a-t {
@@ -704,9 +708,11 @@
     font-family: Fira Sans;
     font-size: 20px;
     text-align: center;
-    width: 835px;
+    width: 950px;
     height: 35px;
     padding: 20px 40px 20px 40px;
+    border: none;
+    background-color: rgb(245, 245, 245);
 
 
 }
@@ -755,6 +761,7 @@
 }
 
 .eight-title {
+    padding-top: 80px;
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
@@ -777,6 +784,71 @@
     width: 600px;
     height: 55px;
     border-radius: 8px 0px 0px 8px;
-
+    /* padding-left: 50px; */
+    margin-left: 275px;
     background: rgb(255, 255, 255);
+}
+
+.subs {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    padding-left: 50px;
+    border: none;
+    /* font-weight: 400; */
+}
+
+.eight-page-btn {
+    border-radius: 0px 8px 8px 0px;
+
+    /* width: 50px; */
+    /* height: 56px; */
+    margin-left: 397px;
+    /* background: rgb(0, 106, 80); */
+
+}
+
+.eight-p-btn {
+    background: rgb(0, 106, 80);
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    padding: 17px 34px 17px 34px;
+}
+
+.eight-page-last {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: rgb(233, 231, 231);
+    width: 1333px;
+    height: 300px;
+    /* margin-bottom: 30px; */
+}
+
+.f-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.hr{
+    
+    width: 750px;
+}
+.f-img{
+    display:flex;
+    justify-content: center;
+}
+.icon{
+    padding-right: 40px;
+
 }
