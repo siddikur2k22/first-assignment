@@ -24,6 +24,12 @@
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
 }
+.sign-in:hover{
+    /* background-color: aliceblue; */
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    background-color: rgb(197, 245, 84);
+}
 
 .nav-right {
     font-weight: 500;
@@ -849,6 +855,7 @@
     justify-content: center;
 }
 .icon{
+    padding-top: 20px;
     padding-right: 40px;
 
 }
