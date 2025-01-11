@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Header */
+.header {
+    border-bottom: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 160px;
+}
+
+.nav-left {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 26px;
+    text-align: left;
+}
+
+.sign-in {
+    /* background-color: aliceblue; */
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+}
+
+.nav-right {
+    font-weight: 500;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    text-align: center;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+/* hero section */
+.banner-hero {
+
+    position: static;
+    width: 1135px;
+    height: 560px;
+
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    margin: 80px 0px;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+}
+
+.hero-top-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 22px;
+    text-align: left;
+    /* padding-bottom: 16px; */
+}
+
+.hero-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    width: 615px;
+    height: 201px;
+    text-align: left;
+}
+
+
+
+.btn-p {
+    border: none;
+    border-radius: 8px;
+    width: 270px;
+    height: 56px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+}
+
+.btn-p:hover {
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 56px;
+    background: rgb(78, 106, 0);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 20px;
+}
+
+/* two-page-optional-flex */
+.two-page-optional {
+    margin-bottom: 80px;
+}
+
+.t-o-t {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    padding-left: 20px;
+    /* text-align: left; */
+
+}
+
+.two-page-optional-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.t-p-l {
+    width: 302px;
+    height: 244px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+
+}
+
+.two-p-left {
+    text-align: left;
+}
+
+.t-p-o-i {
+    padding-left: 25px;
+    padding-top: 20px;
+    /* top: 1px; */
+}
+
+.two-page-optional-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    padding-left: 24px;
+    text-align: left;
+}
+
+.two-page-optional-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    /* text-align: left; */
+    width: 254px;
+    height: 72px;
+    padding-left: 20px;
+}
+
+/* Two-Page */
+.two-page {
+    margin-bottom: 80px;
+}
+
+.two-page-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-t {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.t-d {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    width: 1300px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
+.two-p-l {
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 325px;
+    gap: 24px;
+}
+
+.two-p-c {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgb(198, 228, 214);
+}
+
+.two-p-r {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+    background: rgb(247, 235, 207);
+}
+
+.t-p-i {
+    padding-top: 30px;
+    padding-left: 34px;
+}
+
+.two-page-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.two-page-description {
+    width: 346.67px;
+    height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    padding-left: 30px;
+}
+
+.two-p-btn {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+/* .two-p-btn:hover {
+    color: rgb(255, 0, 0);
+    font-family: Fira Sans;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 30px;
+
+} */
+
+.two-page-btn-l {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(84, 144, 245);
+}
+
+.two-page-btn-l:hover {
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(87, 84, 245);
+}
+
+.two-page-btn-c {
+
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(9, 161, 92);
+}
+
+.two-page-btn-c:hover {
+
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(161, 9, 98);
+    font-size: 20px;
+}
+
+.two-page-btn-b {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(255, 194, 57);
+}
+
+.two-page-btn-b:hover {
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(197, 245, 84);
+}
+
+/* Three- Page */
+.three-page {
+    padding-top: 20px;
+    padding-left: 50px;
+    /* padding-right: 50px; */
+    margin-bottom: 80px;
+
+
+
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.three-page-description {
+    position: relative;
+    top: -70px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    width: 1150px;
+}
+
+.three-page-name {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+}
+
+.three-page-title {
+    position: relative;
+    top: -70px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+
+}
+
+/* Fourth-page */
+
+
+/* .opinion {
+    margin: 30px;
+    border-radius: 16px;
+    
+    background: rgb(245, 245, 240);
+
+}
+
+.four-page-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    text-align: left;
+}
+
+.four-opinion {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.four-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-left,.first-right {
+    width: 700px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+} */
+
+/* five-image */
+.five-page {
+    margin-bottom: 24px;
+}
+
+.five-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    text-align: left;
+}
+
+.f-p-image {
+    border-radius: 24px;
+
+    background: rgb(245, 242, 242);
+}
+
+.five-left-img {
+    width: 408px;
+    height: 306px;
+
+    margin: 20px;
+}
+
+.f-l-i {
+
+    border-radius: 24px;
+
+    /* background: url(image); */
+}
+
+.five-top {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.five-page-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    width: 1280px;
+    height: 48px;
+    text-align: left;
+}
+
+.five-right-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    gap: 32;
+    /* padding-left: 60px; */
+}
+
+.five-right-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    text-align: left;
+
+}
+
+
+
+.five-al-jajera {
+    position: relative;
+    top: -12px;
+}
+
+.five-time-date {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    position: relative;
+    top: -12px;
+
+}
+
+.five-p-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    width: 744px;
+    height: 72px;
+    position: relative;
+    top: -12px;
+
+}
+
+.five-btn {
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+}
+
+.five-btn:hover {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(161, 9, 98);
+    font-size: 20px;
+}
+
+/* five-page-copy */
+.five-page-copy {
+    margin-bottom: 80px;
+}
+
+.five-title-copy {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    text-align: left;
+}
+
+.f-p-image-copy {
+    border-radius: 24px;
+
+    background: rgb(245, 242, 242);
+}
+
+.five-left-img-copy {
+    width: 408px;
+    height: 306px;
+
+    margin: 20px;
+}
+
+.f-l-i-copy {
+
+    border-radius: 24px;
+
+    /* background: url(image); */
+}
+
+.five-top-copy {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.five-page-description-copy {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    width: 1280px;
+    height: 48px;
+    text-align: left;
+}
+
+.five-right-text-copy {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    gap: 32;
+    /* padding-left: 60px; */
+}
+
+.five-right-title-copy {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    text-align: left;
+
+}
+
+
+
+.five-al-jajera-copy {
+    position: relative;
+    top: -12px;
+}
+
+.five-time-date-copy {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    position: relative;
+    top: -12px;
+
+}
+
+.five-p-description-copy {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    width: 744px;
+    height: 72px;
+    position: relative;
+    top: -12px;
+
+}
+
+.five-btn {
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+}
+
+.five-btn:hover {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    background: rgb(161, 9, 98);
+    font-size: 20px;
+}
+
+/* seven-page    */
+.seven-page {
+    margin-bottom: 80px;
+}
+
+.seven-page-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seven-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    text-align: center;
+    width: 1100px;
+    height: 48px;
+    padding-left: 105px;
+}
+
+.donate-taka {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.d-t {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    padding: 25px;
+    gap: 24px;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    width: 138px;
+    height: 30px;
+}
+
+.d-t:hover {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    padding: 25px;
+    gap: 24px;
+    font-weight: 600;
+    background: rgb(207, 198, 228);
+    width: 138px;
+    height: 30px;
+}
+
+.d-t-t {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    padding: 25px;
+    gap: 24px;
+    font-weight: 600;
+    background: rgb(198, 228, 214);
+    width: 138px;
+    height: 30px;
+}
+
+.d-t-t:hover {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    padding: 25px;
+    gap: 24px;
+    font-weight: 600;
+    background: rgb(207, 198, 228);
+    width: 138px;
+    height: 30px;
+}
+
+.other-amount {
+    /* border-bottom: 1px solid #dfdcdc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+    margin-bottom: 32px;
+
+
+}
+
+.o-a-t {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    text-align: center;
+    width: 835px;
+    height: 35px;
+    padding: 20px 40px 20px 40px;
+
+
+}
+
+.seven-page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-now {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    width: 151px;
+    height: 56px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+
+    align-items: center;
+}
+
+.donate-now:hover {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    width: 151px;
+    height: 56px;
+    background: rgb(32, 0, 106);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    align-items: center;
+}
+
+/* eight-page */
+.eight-page {
+    margin-bottom: 80px;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+    width: 1330px;
+    height: 395px;
+}
+
+.eight-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.eight-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    width: 622px;
+    height: 48px;
+    padding-left: 340px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+}
